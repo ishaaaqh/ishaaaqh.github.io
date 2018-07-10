@@ -1,0 +1,134 @@
+body{
+  background-color: #f2f2f2;
+}
+.container{
+  background-color: #f2f2f2;
+
+}
+.heading{
+  margin-top:10vh;
+  margin-left: 5vw;
+  font-family: stencil std,fantasy;
+  color:	 #595959;
+
+}
+.heading h3{
+  font-size: 50px;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+}
+.list-group-item
+{
+  border:none;
+  color:#595959;
+  background-color: #33ccff;
+  box-sizing: content-box;
+  transition:ease-in-out .3s;
+}
+.navbar .list-group-item:hover{
+  color:#0000b3;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 400px;
+  }
+#round-1{
+  height:3vh;
+  width:3vw;
+  border-radius: 30vw;
+  font-weight:bold;
+  background-color: #00ff00;
+  text-align: center;
+  padding:5vh 20vw 10vh 2vh;
+  box-sizing: content-box;
+  margin-right: 5vh;
+  transition: ease-in-out .5s;
+}
+#round-2{
+  height:3vh;
+  width:3vw;
+  border-radius: 30vw;
+  font-weight:bold;
+  background-color: #ff0000;
+  text-align:center;
+  padding:5vh 20vw 10vh 2vh;
+  box-sizing: content-box;
+  margin-right: 5vh;
+}
+#round-3{
+  height:3vh;
+  width:3vw;
+  border-radius: 30vw;
+  font-weight:bold;
+  background-color: #0000ff;
+  text-align: center;
+  padding:5vh 20vw 10vh 2vh;
+  box-sizing: content-box;
+  margin-right: 5vh;
+}
+.side-nav-navbar1
+{
+  position:fixed;
+  top:35vh;
+  left:0vw;
+
+
+}
+.side-nav-navbar1 .list-group-item a
+{
+color:#595959;
+
+}
+.side-nav-navbar1 .list-group-item a:hover
+{
+color:#0040ff;
+text-decoration:none;
+}
+.box-1{
+  height:50vh;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns{
+  padding-left:15vw;
+}
+.flexc
+{
+
+  display:flex;
+  justify-content: center;
+}
+.facebook , .fa-facebook{
+  color:#0044cc;
+}
+.twitter , .fa-twitter{
+  color:#00bfff;
+}
+.linkedin, .fa-linkedin{
+  color:#0099e6;
+}
+.fa-google-plus{
+  color:#ff3333;
+}
+.fa-instagram{
+  background: linear-gradient(45deg, rgba(255,255,0,1), rgba(255,0,0,1),rgba(102,0,255,1) 60.71%)
+
+}
+.fa-envelope{
+  color:#c2c2d6;
+}
+@media screen and (max-width:767px){
+  .side-nav-navbar1
+  {
+    position:fixed;
+    top:10vh;
+    left:70vw;
+  }
+  .picutre1{
+    width:90vw;
+  }
+}
